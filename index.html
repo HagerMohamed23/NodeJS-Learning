@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="Assignment1">
+  <head>
+    <meta charset="utf-8">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <title>Angular JS</title>
+  </head>
+  <body>
+    <h1>AngularJS</h1>
+    <div ng-controller="CalcItems">
+      <div>
+        <input type="text" ng-model="items">
+        <button ng-click="Check()">Check If Too Much</button>
+        <p>{{message}}</p>
+      </div>
+    </div>
+  </body>
+</html>
